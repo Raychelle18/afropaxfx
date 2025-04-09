@@ -1,0 +1,46 @@
+body {
+  height: 3000px;
+}
+
+p {
+  font-family: Arial;
+  margin: 5px 5px;
+}
+
+.catalogue {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.catalogue picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.amount {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.cart-button {
+  background-color: blueviolet;
+  height: 24px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
