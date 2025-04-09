@@ -68,7 +68,7 @@
   opacity: 0;
   transition: opacity 0.15s;
   bottom: -75px;
-  left: -50px;
+  left: -120px;
   min-width: 180px;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .services-info {
-  margin-top: 40px;
+  margin-top: 28px;
   color: rgb(0, 0, 12);
   display: flex;
   flex-direction: row;
@@ -175,7 +175,8 @@
 .terms-paragraph {
   display: flex;
   flex: 1;
-  width: 460px;
+  flex-direction: row;
+  width: 360px;
   margin-top: 14px;
 }
 
@@ -225,7 +226,6 @@
 }
 
 .contact-container {
-  bottom: -10px;
   background-color: rgb(9, 9, 61);
   color: aqua;
   text-decoration: underline;
