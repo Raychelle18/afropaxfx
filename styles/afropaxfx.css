@@ -140,25 +140,47 @@
 .p3:hover {
   font-weight: 700;
   color: brown;
-}s
+}
 
 .currency-group {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 10px;
+ display: flex;
+ flex-direction: row;
+ flex: 1;
+ border-color: blue;
 }
 
 .currency-board {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+ display: inline-grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ margin-left: 10px;
 }
 
+.currency-board2 {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ 
 .currency-button:hover {
   cursor: pointer;
   height: 160px;
 }
+ss
+.currency-button2:hover {
+  cursor: pointer;
+  height: 160px;
+}
+
 
 .currency-button {
+  display: grid;
+  background-color: rgb(9, 9, 61);
+  color: aqua;
+  height: 140px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.currency-button2 {
   display: grid;
   background-color: rgb(9, 9, 61);
   color: aqua;
