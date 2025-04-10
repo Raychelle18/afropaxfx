@@ -1,8 +1,11 @@
+.html, body {
+  margin: 0;
+}
 .body {
   font-family: Arial, sans-serif;
   height: 1000px;
   overflow-x: hidden;
-  margin: 0px;
+  margin-left: 0px;
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -28,8 +31,8 @@
   text-decoration: underline;
   font-size: 35px;
   color: rgb(8, 8, 85);
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
@@ -97,23 +100,17 @@
   cursor: pointer;
 }
 
-.website-main {
-  display: flex;
-  flex: 1;
-}
-
 .services-info {
   margin-top: 28px;
   color: rgb(0, 0, 12);
   display: flex;
   flex-direction: row;
-  width: 480px;
 }
 
 .service-paragraph {
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 
@@ -143,22 +140,21 @@
 .p3:hover {
   font-weight: 700;
   color: brown;
-}
+}s
 
 .currency-group {
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
 }
 
 .currency-board {
-  display: flex;
-  margin-top: 15px;
-  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .currency-button:hover {
   cursor: pointer;
-  width: 110px;
   height: 160px;
 }
 
@@ -167,7 +163,6 @@
   background-color: rgb(9, 9, 61);
   color: aqua;
   height: 140px;
-  width: 80px;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -176,8 +171,8 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  width: 360px;
   margin-top: 14px;
+  margin-bottom: 10px;
 }
 
 .terms{
@@ -186,7 +181,7 @@
 
 .terms:hover {
   font-weight: 700;
-  color: blue;
+  color: rgb(59, 8, 240);
 }
 
 .redirect {
@@ -197,7 +192,7 @@
 }
 
 .redirect-button {
-  margin-top: 20px;
+  margin-top: auto;
   margin-left: 35px;
   margin-right: auto;
   height: 76px;
@@ -220,7 +215,7 @@
 .contact-button {
   display: flex;
   position: absolute;
-  margin-top: 30px;
+  bottom: 0;
 }
 
 .contact-container {
@@ -230,7 +225,7 @@
   font-size: large;
   font-weight: 700;
   border: none;
-  border-radius: 10px;
+  border-radius: 5x;
 }
 
 .c-tooltip {
